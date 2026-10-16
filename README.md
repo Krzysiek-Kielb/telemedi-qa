@@ -3,7 +3,7 @@
 Tests for https://testyautomatyczne.telemedi.com/pl (shared environment).
 
 ```bash
-git clone <repo-url> && cd telemedi-qa
+git clone https://github.com/Krzysiek-Kielb/telemedi-qa.git && cd telemedi-qa
 cp .env.example .env     # fill in TELEMEDI_USERNAME/PASSWORD (Task 1) and TELEMEDI_TASK2_USERNAME/PASSWORD (Task 2); never commit .env
 npm install              # dependencies + Chromium (postinstall)
 npm test                 # safe tests: create no consultation
