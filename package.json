@@ -1,0 +1,19 @@
+{
+  "name": "telemedi-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telemedi QA recruitment assignment - Playwright + TypeScript",
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "test": "playwright test --grep-invert \"Main flow\"",
+    "test:booking": "playwright test --grep \"Main flow\"",
+    "test:headed": "playwright test --grep-invert \"Main flow\" --headed",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.8",
+    "typescript": "^7.0.2"
+  }
+}

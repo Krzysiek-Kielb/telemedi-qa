@@ -1,0 +1,13 @@
+node_modules/
+.env
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Agent session logs and the Task 3 report draft: raw exports contain personal data and are submitted separately, not via this repository
+submission/agent-log/
